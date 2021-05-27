@@ -7,7 +7,7 @@ Just `git clone` me
 ## Do not forget
 
 ```sh
-python -m venv PROJECT && echo "conda deactivate\nsource PROJECT/bin/activate" > .env
+PROJECT="`printf '.%s\n' "${PWD##*/}"`" &&  python -m venv $PROJECT && echo "conda deactivate\nsource $PROJECT/bin/activate" > .env && cd .
 ```
 
 ## Usage
