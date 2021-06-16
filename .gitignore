@@ -48,5 +48,6 @@ MANIFEST
 
 # Per-project virtualenvs
 .env
+.autoenv.zsh
 .venv*/
 .conda*/
