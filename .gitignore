@@ -51,3 +51,4 @@ MANIFEST
 .autoenv.zsh
 .venv*/
 .conda*/
+venv
